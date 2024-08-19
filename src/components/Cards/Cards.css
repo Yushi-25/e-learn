@@ -1,0 +1,32 @@
+.courses-display{
+    margin-top: 60px;
+    margin: 10px;
+    padding: 10px;
+}
+.courses-display h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 60px;
+    text-decoration: underline;
+}
+.course-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+}
+.explore{
+    text-align: center;
+    padding-top: 50px;
+}
+.explore button{
+    border: 1px solid white;
+    background-color: salmon;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
